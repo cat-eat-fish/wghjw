@@ -3,10 +3,10 @@
 ## 页面结构
 
 css
-    base.csss
-    style.css
+    base.csss           基本css
+    style.css           所有样式
 js
-
+    rem.js              rem方案
 view
     index.html          首页
     productArea.html    产品专区
