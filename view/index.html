@@ -5,39 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- css -->
-    <link rel="stylesheet" href="https://at.alicdn.com/t/font_992693_rp3toryw8vi.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_992693_ypgvy0k9mhr.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/swiper.min.css">
     <!-- js -->
-    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/swiper.min.js"></script>
     <script src="../js/rem.js"></script>
     <title>首页</title>
 </head>
 <body>
     <!-- 首页头部 -->   
-    <div class="index-head mycenter">
-        <div class="address">太原</div>
-        <form action="" method="">
-            <input type="text">
-            <span></span>
-        </form>
-        <div class="user"></div>
+    <div class="index-head">
+        <div class="mycenter">
+            <div class="address"><i class="iconfont icon-icon-test"></i>  太原</div>
+            <form action="" method="">
+                <input type="text" placeholder="请输入关键字">
+                <span><i class="iconfont icon-sousuo"></i></span>
+            </form>
+            <div class="user">
+                <a href=""><i class="iconfont icon-yonghu"></i></a>
+            </div>
+        </div>
     </div>
     <!-- 轮播图 -->
     <div class="index-slide">
         <div class="swiper-container swiper1">
             <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">
+                <img src="../images/banner.png" alt="轮播图">
+            </div>
+            <div class="swiper-slide">
+                <img src="../images/banner.png" alt="轮播图">
+            </div>
+            <div class="swiper-slide">
+                <img src="../images/banner.png" alt="轮播图">
+            </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
     </div>
     <!-- 导航 -->
     <div class="index-nav">
-        <div class="mycenter ">
+        <div class="mycenter">
             <a href="">
                 <span class="navimg"></span>
                 <span>选酒</span>
@@ -72,225 +83,220 @@
         </div>
     </div>
     <!-- 服务 -->
-    <div class="service">
+    <div class="index-service">
         <div class="mycenter">
-            <div class="express">
-                <div class="expressimg"></div>
-                <div class="expresstxt">
+            <div class="index-express fl">
+                <div class="expressimg fl"></div>
+                <div class="expresstxt fl">
                     <span>免费包邮</span>
                     <span>太原市区99包邮</span>
                 </div>
-                <div class="expresso">其他地区运费自理（满10箱包邮）</div>
+                <div class="expresso fl">其他地区运费自理（满10箱包邮）</div>
+                
             </div>
-            <div class="serviceTime">
-                <div class="serviceTimetxt">服务时间</div>
-                <div class="serviceTimeo">9:00-18:00</div>
+            <div class="serviceTime fl">
+                <div class="expressimg fl"></div>
+                <div class="serviceTimetxt fl">服务时间</div>
+                <div class="serviceTimeo fl">9:00-18:00</div>
             </div>
+            <span class="clearfix"></span>
         </div>
     </div>
     <!-- 活动专区 -->
-    <div class="activity mycenter">
-        <div class="item">
-            <p class="tit">金六福·一坛好酒</p>
-            <p class="desc">尝尝老酒的味道</p>
-            <div class="go"></div>
-        </div>
-        <div class="item">
-            <p class="tit">金六福·一坛好酒</p>
-            <p class="desc">尝尝老酒的味道</p>
-            <div class="go"></div>
-        </div>
-        <div class="item">
-            <p class="tit">金六福·一坛好酒</p>
-            <p class="desc">尝尝老酒的味道</p>
-            <div class="go"></div>
-        </div>   
-        <div class="item">
-            <p class="tit">金六福·一坛好酒</p>
-            <p class="desc">尝尝老酒的味道</p>
-            <div class="go"></div>
+    <div class="activity">
+        <div class="mycenter">
+            <div class="item">
+                <p class="tit">金六福·一坛好酒</p>
+                <p class="desc">尝尝老酒的味道</p>
+                <div class="go">
+                    <a href=""><span>GO <i class="iconfont icon-sanjiao3"></i></span>  </a>
+                </div>
+            </div>
+            <div class="item">
+                <p class="tit">金六福·一坛好酒</p>
+                <p class="desc">尝尝老酒的味道</p>
+                <div class="go">
+                    <a href=""><span>GO <i class="iconfont icon-sanjiao3"></i></span>  </a>
+                </div>
+            </div>
+            <div class="item">
+                <p class="tit">金六福·一坛好酒</p>
+                <p class="desc">尝尝老酒的味道</p>
+                <div class="go">
+                    <a href=""><span>GO <i class="iconfont icon-sanjiao3"></i></span>  </a>
+                </div>
+            </div>   
+            <div class="item">
+                <p class="tit">金六福·一坛好酒</p>
+                <p class="desc">尝尝老酒的味道</p>
+                <div class="go">
+                    <a href=""><span>GO <i class="iconfont icon-sanjiao3"></i></span>  </a>
+                </div>
+            </div>
         </div>
     </div>
     <!--合作  -->
     <div class="cooperation mycenter">
         <a href="">
-            <img src="../images" alt="">
+            <img src="../images/cooperation.png" alt="">
         </a>
     </div>
     <!-- 类别 -->
-    <div class="class mycenter">
-        <div class="class-nav">
-            <div class="class-nav-more"></div>
-            <span class="active">精品抢购</span>
-            <span>最新产品</span>
-            <span>送礼佳品</span>
-            <span>每月订购</span>
-        </div>
-        <div class="swiper-container  swiper2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="item">
-                        <div class="itemimg">
-                            <img src="红酒" alt="">
-                        </div>
-                        <p class="buy">已经有49人买了它</p>
-                        <div class="desc">
-                            <div class="name">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
-                            <div class="line"></div>
-                            <div class="money">
-                                <p>会员价:</p>
-                                <p class="money-txt">￥1380</p>
-                                <p class="nomoney">非会员价：￥3000</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="itemimg">
-                            <img src="红酒" alt="">
-                        </div>
-                        <p class="buy">已经有49人买了它</p>
-                        <div class="desc">
-                            <div class="name">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
-                            <div class="line"></div>
-                            <div class="money">
-                                <p>会员价:</p>
-                                <p class="money-txt">￥1380</p>
-                                <p class="nomoney">非会员价：￥3000</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="item">
-                        <div class="itemimg">
-                            <img src="红酒" alt="">
-                        </div>
-                        <p class="buy">已经有49人买了它</p>
-                        <div class="desc">
-                            <div class="name">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
-                            <div class="line"></div>
-                            <div class="money">
-                                <p>会员价:</p>
-                                <p class="money-txt">￥1380</p>
-                                <p class="nomoney">非会员价：￥3000</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="itemimg">
-                            <img src="红酒" alt="">
-                        </div>
-                        <p class="buy">已经有49人买了它</p>
-                        <div class="desc">
-                            <div class="name">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
-                            <div class="line"></div>
-                            <div class="money">
-                                <p>会员价:</p>
-                                <p class="money-txt">￥1380</p>
-                                <p class="nomoney">非会员价：￥3000</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="item">
-                        <div class="itemimg">
-                            <img src="红酒" alt="">
-                        </div>
-                        <p class="buy">已经有49人买了它</p>
-                        <div class="desc">
-                            <div class="name">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
-                            <div class="line"></div>
-                            <div class="money">
-                                <p>会员价:</p>
-                                <p class="money-txt">￥1380</p>
-                                <p class="nomoney">非会员价：￥3000</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="itemimg">
-                            <img src="红酒" alt="">
-                        </div>
-                        <p class="buy">已经有49人买了它</p>
-                        <div class="desc">
-                            <div class="name">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
-                            <div class="line"></div>
-                            <div class="money">
-                                <p>会员价:</p>
-                                <p class="money-txt">￥1380</p>
-                                <p class="nomoney">非会员价：￥3000</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="index-class">
+        <div class="mycenter">
+            <div class="class-nav">
+                <span class="active">精品抢购</span>
+                <span>最新产品</span>
+                <span>送礼佳品</span>
+                <span>每月订购</span>
+                <div class="class-nav-more"><i class="iconfont icon-sanjiao3"></i></div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-container  swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="itemimg">
+                                <img src="../images/boutique-1.png" alt="红酒">
+                            </div>
+                            <p class="buy">已经有49人买了它</p>
+                            <div class="desc">
+                                <div class="name fl">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
+                                <div class="line fl"></div>
+                                <div class="money fl">
+                                    <p>会员价:</p>
+                                    <p class="money-txt">￥1380</p>
+                                    <p class="nomoney">非会员：￥3000</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemimg">
+                                <img src="../images/boutique-1.png" alt="红酒">
+                            </div>
+                            <p class="buy">已经有49人买了它</p>
+                            <div class="desc">
+                                <div class="name fl">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
+                                <div class="line fl"></div>
+                                <div class="money fl">
+                                    <p>会员价:</p>
+                                    <p class="money-txt">￥1380</p>
+                                    <p class="nomoney">非会员：￥3000</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="itemimg">
+                                <img src="../images/boutique-1.png" alt="红酒">
+                            </div>
+                            <p class="buy">已经有49人买了它</p>
+                            <div class="desc">
+                                <div class="name fl">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
+                                <div class="line fl"></div>
+                                <div class="money fl">
+                                    <p>会员价:</p>
+                                    <p class="money-txt">￥1380</p>
+                                    <p class="nomoney">非会员：￥3000</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemimg">
+                                <img src="../images/boutique-1.png" alt="红酒">
+                            </div>
+                            <p class="buy">已经有49人买了它</p>
+                            <div class="desc">
+                                <div class="name fl">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
+                                <div class="line fl"></div>
+                                <div class="money fl">
+                                    <p>会员价:</p>
+                                    <p class="money-txt">￥1380</p>
+                                    <p class="nomoney">非会员：￥3000</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="itemimg">
+                                <img src="../images/boutique-1.png" alt="红酒">
+                            </div>
+                            <p class="buy">已经有49人买了它</p>
+                            <div class="desc">
+                                <div class="name fl">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
+                                <div class="line fl"></div>
+                                <div class="money fl">
+                                    <p>会员价:</p>
+                                    <p class="money-txt">￥1380</p>
+                                    <p class="nomoney">非会员：￥3000</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemimg">
+                                <img src="../images/boutique-1.png" alt="红酒">
+                            </div>
+                            <p class="buy">已经有49人买了它</p>
+                            <div class="desc">
+                                <div class="name fl">意大利泰利蒙特酒庄莫达干红葡萄酒</div>
+                                <div class="line fl"></div>
+                                <div class="money fl">
+                                    <p>会员价:</p>
+                                    <p class="money-txt">￥1380</p>
+                                    <p class="nomoney">非会员：￥3000</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </div>
     <!-- 推荐 -->
-    <div class="recommend mycenter">
-        <div class="recommendimg">
-            <img src="" alt="">
-        </div>
-        <div class="item">
-            <div class="itemimg">
-                <img src="" alt="">
+    <div class="recommend ">
+        <div class="mycenter">
+            <div class="recommendimg">
+                <img src="../images/recommend.png" alt="">
             </div>
-            <div class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</div>
-            <div class="money">
-                <span class="ismoney">￥13.80-28.80</span>
-                <span class="nomoney">￥30</span>
-            </div>
-        </div>
-        <div class="item">
-            <div class="itemimg">
-                <img src="" alt="">
-            </div>
-            <div class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</div>
-            <div class="money">
-                <span class="ismoney">￥13.80-28.80</span>
-                <span class="nomoney">￥30</span>
-            </div>
-        </div>
-        <div class="item">
-            <div class="itemimg">
-                <img src="" alt="">
-            </div>
-            <div class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</div>
-            <div class="money">
-                <span class="ismoney">￥13.80-28.80</span>
-                <span class="nomoney">￥30</span>
-            </div>
-        </div>
-        <div class="item">
-            <div class="itemimg">
-                <img src="" alt="">
-            </div>
-            <div class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</div>
-            <div class="money">
-                <span class="ismoney">￥13.80-28.80</span>
-                <span class="nomoney">￥30</span>
-            </div>
-        </div>
-        <div class="item">
-            <div class="itemimg">
-                <img src="" alt="">
-            </div>
-            <div class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</div>
-            <div class="money">
-                <span class="ismoney">￥13.80-28.80</span>
-                <span class="nomoney">￥30</span>
-            </div>
-        </div>
-        <div class="item">
-            <div class="itemimg">
-                <img src="" alt="">
-            </div>
-            <div class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</div>
-            <div class="money">
-                <span class="ismoney">￥13.80-28.80</span>
-                <span class="nomoney">￥30</span>
+            <div class="recommend-list">
+                <div class="item">
+                    <a href="" class="itemimg">
+                        <img src="../images/commodity-1.png" alt="红酒">
+                    </a>
+                    <a href="" class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</a>
+                    <div class="money">
+                        <span class="ismoney">￥13.80-28.80</span>
+                        <span class="nomoney"><del>￥30</del></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="" class="itemimg">
+                        <img src="../images/commodity-1.png" alt="红酒">
+                    </a>
+                    <a href="" class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</a>
+                    <div class="money">
+                        <span class="ismoney">￥13.80-28.80</span>
+                        <span class="nomoney"><del>￥30</del></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="" class="itemimg">
+                        <img src="../images/commodity-1.png" alt="红酒">
+                    </a>
+                    <a href="" class="name">意大利泰利蒙特酒庄慕达干红果葡萄酒</a>
+                    <div class="money">
+                        <span class="ismoney">￥13.80-28.80</span>
+                        <span class="nomoney"><del>￥30</del></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -298,25 +304,28 @@
     <div class="index-other">
         <div class="mycenter">
             <div class="item">
-                <div class="itemimg"></div>
-                <div class="itemtxt">
+                <div class="itemimg fl"></div>
+                <div class="itemtxt fl">
                     <p>真酒直供</p>
                     <p class="desc">马上为您送到</p>
                 </div>
+                <div class="clearfix"></div>
             </div>
             <div class="item">
-                <div class="itemimg"></div>
-                <div class="itemtxt">
+                <div class="itemimg fl"></div>
+                <div class="itemtxt fl">
                     <p>微商城+电话订购</p>
-                    <p class="desc">全城配送服务</p>
+                    <p class="desc">全程配送服务</p>
                 </div>
+                <div class="clearfix"></div>
             </div>
             <div class="item">
-                <div class="itemimg"></div>
-                <div class="itemtxt">
+                <div class="itemimg fl"></div>
+                <div class="itemtxt fl">
                     <p>服务专线</p>
                     <p class="desc">400-1040-199</p>
                 </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -340,22 +349,32 @@
     <div class="foot-nav">
         <div class="mycenter">
             <a href="" class="active">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/home-no-icon.png" alt="首页">
+                </div>
                 <div class="txt">首页</div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/class-icon.png" alt="">
+                </div>
                 <div class="txt">分类</div>
             </a>
-            <a href="">
-                <div class="img"></div>
+            <a id="gotop" class="gotop"  href="javascript:$('html, body').animate({scrollTop: 0},300);;">
+                <div class="img">
+                    <img src="../images/gotop.png" alt="">
+                </div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/card-icon.png" alt="">
+                </div>
                 <div class="txt">购物车</div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/member-icon.png" alt="">
+                </div>
                 <div class="txt">个人中心</div>
             </a>
         </div>
