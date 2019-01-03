@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- css -->
-    <link rel="stylesheet" href="https://at.alicdn.com/t/font_992693_7wxxn6s6tvc.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_992693_ypgvy0k9mhr.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- js -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/rem.js"></script>
     <title>团购--产品列表</title>
 </head>
@@ -24,7 +26,7 @@
             </a>
         </div>
     </div>
-    <!-- <div class="margint"></div> -->
+    <div class="margint"></div>
     <!-- 产品nav -->
     <div class=""></div>
     <!-- 下拉加载 -->
@@ -34,26 +36,31 @@
         </div>
     </div>
     <!-- other -->
-    <div class="index-other mycenter">
-        <div class="item">
-            <div class="itemimg"></div>
-            <div class="itemtxt">
-                <p>真酒直供</p>
-                <p class="desc">马上为您送到</p>
+    <div class="index-other">
+        <div class="mycenter">
+            <div class="item">
+                <div class="itemimg fl"></div>
+                <div class="itemtxt fl">
+                    <p>真酒直供</p>
+                    <p class="desc">马上为您送到</p>
+                </div>
+                <div class="clearfix"></div>
             </div>
-        </div>
-        <div class="item">
-            <div class="itemimg"></div>
-            <div class="itemtxt">
-                <p>微商城+电话订购</p>
-                <p class="desc">全城配送服务</p>
+            <div class="item">
+                <div class="itemimg fl"></div>
+                <div class="itemtxt fl">
+                    <p>微商城+电话订购</p>
+                    <p class="desc">全程配送服务</p>
+                </div>
+                <div class="clearfix"></div>
             </div>
-        </div>
-        <div class="item">
-            <div class="itemimg"></div>
-            <div class="itemtxt">
-                <p>服务专线</p>
-                <p class="desc">400-1040-199</p>
+            <div class="item">
+                <div class="itemimg fl"></div>
+                <div class="itemtxt fl">
+                    <p>服务专线</p>
+                    <p class="desc">400-1040-199</p>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -77,22 +84,32 @@
     <div class="foot-nav">
         <div class="mycenter">
             <a href="" class="active">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/home-no-icon.png" alt="首页">
+                </div>
                 <div class="txt">首页</div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/class-icon.png" alt="">
+                </div>
                 <div class="txt">分类</div>
             </a>
-            <a href="">
-                <div class="img"></div>
+            <a id="gotop" class="gotop"  href="javascript:$('html, body').animate({scrollTop: 0},300);;">
+                <div class="img">
+                    <img src="../images/gotop.png" alt="">
+                </div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/card-icon.png" alt="">
+                </div>
                 <div class="txt">购物车</div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/member-icon.png" alt="">
+                </div>
                 <div class="txt">个人中心</div>
             </a>
         </div>

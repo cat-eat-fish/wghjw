@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- css -->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_992693_ypgvy0k9mhr.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- js -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/rem.js"></script>
     <title>注册成功</title>
 </head>
@@ -27,13 +30,13 @@
     <!-- 成功提示 -->
     <div class="register-success">
         <div class="mycenter">
-            <img src="" alt="">
+            <img src="../images/register-success.png" alt="">
             <p class="successtxt">操作成功！</p>
             <p class="gowhere">
                 <span>您现在可以去：</span>
                 <a href="">个人中心</a>
                 <span>>></span>
-                <a href="">网站首页</a>
+                <a href="index.html">网站首页</a>
             </p>
         </div>
     </div>
@@ -57,22 +60,32 @@
     <div class="foot-nav">
         <div class="mycenter">
             <a href="" class="active">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/home-no-icon.png" alt="首页">
+                </div>
                 <div class="txt">首页</div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/class-icon.png" alt="">
+                </div>
                 <div class="txt">分类</div>
             </a>
-            <a href="">
-                <div class="img"></div>
+            <a id="gotop" class="gotop"  href="javascript:$('html, body').animate({scrollTop: 0},300);;">
+                <div class="img">
+                    <img src="../images/gotop.png" alt="">
+                </div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/card-icon.png" alt="">
+                </div>
                 <div class="txt">购物车</div>
             </a>
             <a href="">
-                <div class="img"></div>
+                <div class="img">
+                    <img src="../images/member-icon.png" alt="">
+                </div>
                 <div class="txt">个人中心</div>
             </a>
         </div>
