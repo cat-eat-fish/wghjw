@@ -12,8 +12,8 @@ view
     productArea.html    产品专区
     productDetails.html 产品详情
     groupBuying.html    团购专区
-    famousvillage.html  名庄专区
-    groupBuyingList.html团购--产品列表
+    famousvillage.html  名庄专区            *
+    groupBuyingList.html团购--产品列表      ..
     commodityClass.html 商品分类
     exchange.html       积分兑换
     payment.html        支付
@@ -34,19 +34,19 @@ view
     myWallet.html       我的钱包
     myCircle.html       我的圈子
     myCollection.html   我的收藏
-    myExtension.html    我的推广
-    myAdvanceDeposit.html我的预存款
-    newAddress.html     新增地址
-    accountInfo.html    账户信息
-    perfectInfo.html    完善资料
+    myExtension.html    我的推广        *
+    myAdvanceDeposit.html我的预存款     *
+    newAddress.html     新增地址        *
+    accountInfo.html    账户信息        *
+    perfectInfo.html    完善资料        *
 
-    register.html       注册
-    registerSuccess.html注册成功
-    login.html          登陆
-    retrievePassword.html找回密码
-    resetPassword.html  重置密码
-    modifyPassword.html 修改密码
-    modifyPhone.html    修改手机绑定
+    register.html       注册            *
+    registerSuccess.html注册成功        *
+    login.html          登陆            *
+    retrievePassword.html找回密码       *
+    resetPassword.html  重置密码        *
+    modifyPassword.html 修改密码        *
+    modifyPhone.html    修改手机绑定    *
 
 
 

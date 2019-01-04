@@ -5,12 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- css -->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_992693_7wxxn6s6tvc.css">
     <link rel="stylesheet" href="../css/style.css">
     <!-- js -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/rem.js"></script>
-    <title>退换</title>
+    <title>发布退换货申请</title>
 </head>
 <body>
-    
+    <!-- 头部 -->
+    <div class="head">
+        <div class="mycenter">
+            <a href="javascript:;" onclick="window.history.back();" class="return">
+                <i class="iconfont icon-zuojiantou"></i>
+            </a>
+            <div class="title">发布退换货申请</div>
+            <a href="" class="cart">
+                <i class="iconfont icon-gouwuche"></i>
+            </a>
+        </div>
+    </div>
+    <div class="margint"></div>
+    <!--  -->
+    <div class="evaluate-info">
+        <div class="mycenter">
+            <div class="evaluate-info-img">
+                <img src="../images/product-list-1.png" alt="">
+            </div>
+            <div class="evaluate-info-txt">
+                <p class="name">意大利泰利蒙特酒庄慕达干红葡萄酒</p>
+                <p class="money">¥1380/件</p>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="choice-replace">
+        <div class="mycenter">
+            <p><input type="radio">退货退款（<img src="../images/bulb-icon.png" alt=""> 已收到货，需要退还已收到的货物）</p>
+            <p><input type="radio">仅退款（<img src="../images/bulb-icon.png" alt=""> 未收到货，或与卖家协商同意前提下申请）</p>
+        </div>
+    </div>
+    <form action="" method="" id="replace-form">
+        <div class="replace-form-box">
+            <div class="mycenter">
+                <p>发布退货退款申请</p>
+                <textarea name="" id="evaluate-form-textarea" cols="" rows="">亲！把你对商品的评语发表出来吧！</textarea>
+            </div>
+        </div>
+        <button type="submit">发布申请</button>
+    </form>
 </body>
 </html>
